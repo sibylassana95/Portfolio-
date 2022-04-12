@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> SIBYGLOBAL</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN lien -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <!-- Messenger Plugin de discussion Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin de discussion code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "112651390086228");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v13.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/fr_FR/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+  <!-- button deplacer -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">SIBYGLOBAL</a></div>
+      <ul class="menu">
+          <li><a href="#home">Acceuil</a></li>
+          <li><a href="#about">A propos de moi</a></li>
+          <li><a href="#skills">Competence</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="https://sibyinformatique.blogspot.com/2022/02/">Blog</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+      </ul>
+      
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+<!-- Acceuil Section  -->
+ <section class="home" id="home">
+   <div class="home-content">
+     <div class="text">
+       <div class="text-one">Bonjour,</div>
+       <div class="text-two">Je suis Lassana SIBY</div>
+       <div class="text-three">Informaticien</div>
+       <div class="text-four">Senegal</div>
+     </div>
+     
+   </div>
+ </section>
+
+<!-- A propos de moi section -->
+<section class="about" id="about">
+  <div class="content">
+    <div class="title"><span>A propos de moi</span></div>
+  <div class="about-details">
+    <div class="left">
+      <img src="images/me.png" alt="ma photo">
+    </div>
+    <div class="right">
+      <div class="topic">L'informatique c'est ma passion</div>
+      <p>Moi c'est Lassana Siby, étudiant en Informatique et Gestion, j’ai enfin trouvé ma voie qui me passionne (l’informatique). Je suis un véritable mordu(des nuits blanches à passer sur les forums et des tutos sur le web à la recherche de connaissances pour approfondir mes compétences.Ce qui me passionne c’est les possibilités quasi infinies via cet outil et l’arrivée d’internet dans nos foyers. Les possibilités sont sans doute infinies , on ne connaît pas encore ses limites,elles sont toujours repoussées. </p>
+      
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- competences Section  -->
+
+<section class="skills" id="skills">
+ <div class="content">
+   <div class="title"><span>Mes Compétences</span></div>
+   <div class="skills-details">
+     <div class="text">
+       <div class="topic">Les Compétences reflétent nos connaissances</div>
+       <p> Après quelques année d’études et de recherche ,je maîtrise quelques outils informatiques et numériques.Le marché du travail a évolué en conséquence et des compétences informatiques ont exigées. Je maîtrise les programmes de traitement de texte tels que Microsoft Word ,les tableurs(Excel),la création de présentation à laide de PowerPoint ou le traitement d’image avec Photoshop, les langages de programmations,les bases de données ,les systèmes d’exploitation et la gestion de contenu digital. </p>
+       <div class="experience">
+         <div class="num">3</div>
+         <div class="exp">ans<br> d'experiences</div>
+       </div>
+     </div>
+     <div class="boxes">
+       <div class="box">
+         <div class="topic">HTML</div>
+         <div class="per">70%</div>
+       </div>
+       <div class="box">
+         <div class="topic">CSS</div>
+         <div class="per">70%</div>
+       </div>
+       <div class="box">
+         <div class="topic">Java</div>
+         <div class="per">50%</div>
+       </div>
+       <div class="box">
+         <div class="topic">PHP</div>
+         <div class="per">40%</div>
+       </div>
+       <div class="box">
+         <div class="topic">ANDROID STUDIO</div>
+         <div class="per">50%</div>
+       </div>
+       <div class="box">
+         <div class="topic">WORDPRESS</div>
+         <div class="per">70%</div>
+       </div>
+       <div class="box">
+         <div class="topic">MYSQL</div>
+         <div class="per">50%</div>
+       </div>
+        <div class="box">
+         <div class="topic">JAVASCRIPT</div>
+         <div class="per">30%</div>
+       </div>
+       <div class="box">
+         <div class="topic">Oracle</div>
+         <div class="per">70%</div>
+       </div>
+       <div class="box">
+         <div class="topic">Bureautiques</div>
+         <div class="per">90%</div>
+       </div>
+     </div>
+   </div>
+ </div>
+</section>
+
+<!-- Services section -->
+ <section class="services" id="services">
+   <div class="content">
+     <div class="title"><span>Mes Services</span></div>
+     <div class="boxes">
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-desktop"></i>
+       </div>
+       <div class="topic">Instalation Systéme</div>
+       <p>Instalation de tout les systémes d'exploitation(Windows, linux , MacOS.)</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-paint-brush"></i>
+       </div>
+       <div class="topic">Infographie</div>
+       <p>Création de logo , flyers , affiches , carte visite , carte membre , carte d'invitation etc..  </p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-chart-line"></i>
+       </div>
+       <div class="topic">Activation et <br/>Instalation logiciels </div>
+       <p>Activation de tout les systémes d'exploitations et Instalation des logiciels insdispensables.</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fab fa-android"></i>
+       </div>
+       <div class="topic">Création site web simple</div>
+       <p>Création de site web wordpress ou HTML-PHP-CSS-JAVASCRIPT-MSQL</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-camera-retro"></i>
+       </div>
+       <div class="topic">Publicité de produit</div>
+       <p>Pour plus de visibilité de vos produits , je vous propose des publicités en image ou video. </p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-tablet-alt"></i>
+       </div>
+       <div class="topic">Cours Bureautique </div>
+       <p>Des cours en ligne pour maîtriser les bases de la bureautique  </p>
+     </div>
+   </div>
+   </div>
+ </section>
+
+<!-- Contact section -->
+<section class="contact" id="contact">
+  <div class="content">
+    <div class="title"><span>Contactez Moi</span></div>
+    <div class="text">
+      <p class="media-icons"> <a href="https://m.facebook.com/Sibyglobal-112651390086228/?ref=bookmarks" target="_blank"><img src="images/facebook.png" alt="Facebook" /></a>
+                    <a href="https://www.facebook.com/112651390086228/posts/457816415569722/?d=n" target="_blank"><img src="images/twitter.png" alt="Twitter" /></a>
+                    <a href="https://instagram.com/sibyog13?utm_medium=copy_link" target="_blank"><img src="images/instagram.png" alt="instagram" /></a>
+                    <a href="https://api.whatsapp.com/send?phone=221784502133" target="_blank"><img src="images/whatsapp.png" alt="whatsapp" /></a>
+
+                  </p>
+     
+        
+      </div>
+    </div>
+  
+</section>
+
+<!-- Footer Section -->
+<footer>
+  <div class="text">
+    <span>Created By <a href="#">Lassana siby</a> | &#169; 2021 All Rights Reserved</span>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
